@@ -23,9 +23,9 @@
             </div>
 
             <div class="mb-3">
-              <div class="float-end">
+              {{-- <div class="float-end">
                 <a href="{{ route('password.request') }}" class="text-muted">Forgot password?</a>
-              </div>
+              </div> --}}
               <label class="form-label" for="password-input">Password</label>
               <div class="position-relative auth-pass-inputgroup mb-3">
                 <input type="password" class="form-control pe-5" placeholder="Enter password" id="password-input" name="password" required placeholder="Password" autocomplete="current-password">
@@ -43,7 +43,7 @@
               <button class="btn btn-success w-100" type="submit">Sign In</button>
             </div>
 
-            <div class="mt-4 text-center">
+            {{-- <div class="mt-4 text-center">
               <div class="signin-other-title">
                 <h5 class="fs-13 mb-4 title">Sign In with</h5>
               </div>
@@ -53,7 +53,7 @@
                 <button type="button" class="btn btn-dark btn-icon waves-effect waves-light"><i class="ri-github-fill fs-16"></i></button>
                 <button type="button" class="btn btn-info btn-icon waves-effect waves-light"><i class="ri-twitter-fill fs-16"></i></button>
               </div>
-            </div>
+            </div> --}}
           </form>
         </div>
       </div>
